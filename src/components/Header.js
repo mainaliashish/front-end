@@ -1,7 +1,5 @@
 import React from 'react';
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function Header(params) {
     return (
@@ -17,7 +15,7 @@ function Header(params) {
                     <i className="fas fa-shopping-cart"></i>Cart
                   </Nav.Link>
                   <Nav.Link href="/login">
-                    <i className="fas fa-user"></i>Login
+                    <i className="fas fa-user"></i>
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
